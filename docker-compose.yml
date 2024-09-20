@@ -1,8 +1,8 @@
-version: '3.7'
+version: "3.8"
 services:
   repo:
     restart: always
-    image: registry:2
+    image: registry:3.0.0-beta.1
     ports:
       - 49999:5000
     volumes:
